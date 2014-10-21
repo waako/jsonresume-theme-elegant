@@ -51,6 +51,7 @@ function render(resume) {
         profiles = resume.basics.profiles,
         twitter_account = getNetwork(profiles, 'twitter'),
         github_account = getNetwork(profiles, 'github'),
+        drupal_account = getNetwork(profiles, 'drupal'),
         linkedin_account = getNetwork(profiles, 'linkedin'),
         skype_account = getNetwork(profiles, 'skype'),
         date_format = 'MMM, YYYY';
@@ -134,6 +135,9 @@ function render(resume) {
     });
     github_account && _.extend(resume.basics, {
         githubUsername: github_account.username
+    });
+    drupal_account && _.extend(resume.basics, {
+        drupalUsername: drupal_account.username
     });
     linkedin_account && linkedin_account.url && _.extend(resume.basics, {
         linkedinUrl: linkedin_account.url

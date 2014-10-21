@@ -104,6 +104,7 @@ body {
 }
 .social-link {
   margin-left: 5px;
+  color: #707070;
 }
 .social-link:first-child {
   margin-left: 0;
@@ -111,34 +112,34 @@ body {
 .social-link:hover {
   text-decoration: none;
 }
-.link-github {
+.link-github:hover {
   color: #454545;
 }
-.link-github:hover {
+.link-github:hover:hover {
   color: #2b2b2b;
 }
-.link-twitter {
+.link-twitter:hover {
   color: #33ccff;
 }
-.link-twitter:hover {
+.link-twitter:hover:hover {
   color: #00bfff;
 }
-.link-blog {
+.link-blog:hover {
   color: #f36f24;
 }
-.link-blog:hover {
+.link-blog:hover:hover {
   color: #d8560c;
 }
-.link-linkedin {
+.link-linkedin:hover {
   color: #007bb6;
 }
-.link-linkedin:hover {
+.link-linkedin:hover:hover {
   color: #005983;
 }
-.link-skype {
+.link-skype:hover {
   color: #12a5f4;
 }
-.link-skype:hover {
+.link-skype:hover:hover {
   color: #0986ca;
 }
 .card-skills {
